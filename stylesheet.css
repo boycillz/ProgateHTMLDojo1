@@ -1,0 +1,109 @@
+/* Reset CSS (JANGAN DIHAPUS) */
+html, body,
+ul, ol, li,
+h1, h2, h3, h4, h5, h6, p,
+form, input, div {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Avenir Next";
+}
+
+li {
+  list-style: none;
+  padding: 33px 20px;
+  float: left;
+}
+
+/* Ketik code Anda dibawah */
+header {
+  background-color: #26d0c9;
+  height: 90px;
+  color: #fff;
+}
+
+.header-left {
+  float: left;
+  font-size: 36px;
+  padding: 20px 40px;
+}
+
+.main {
+  padding: 100px 80px;
+}
+
+.container h1{
+  font-size: 140px;
+}
+
+.container h2 {
+  font-size: 60px;
+}
+
+.container span {
+  color: #ff4a4a;
+}
+
+.contents {
+  height: 500px;
+  margin-top: 100px;
+}
+
+.contents-item {
+  float: left;
+  margin-right: 40px;
+}
+
+.section-title {
+  font-size: 28px;
+  padding-bottom: 15px;
+  margin-bottom: 50px;
+  border-bottom: 2px solid #dee7ec;
+}
+
+.contact-us {
+  margin-top: 100px;
+}
+
+.contact-us p {
+  margin-bottom: 10px;
+}
+
+input, textarea {
+  padding: 20px;
+  margin-bottom: 30px;
+  margin-top: 10px;
+  border: 1px solid #dee7ec;
+
+}
+
+.contact-send-btn{
+  background-color: #dee7ec;
+  font-size: 18px;
+  width: 400px;
+  color: #889eab;
+  padding: 20px;
+  margin-bottom: 30px;
+}
+
+.footer {
+  height: 120px;
+  background-color: #2f5167;
+  color: #fff;
+  padding: 40px;
+}
+
+.footer-left p {
+  font-size: 32px;
+  float: left;
+}
+
+.footer-right {
+  float: right;
+}
+
+.footer-right li {
+  padding-bottom: 20px;
+}
